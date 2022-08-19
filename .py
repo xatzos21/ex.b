@@ -46,7 +46,5 @@ elif y == "b":
 
 elif  y == "a":  
         print("\n", " It could had been worst!")
-        
-
 else:
     print("\n", "Wrong answer!", "\n", "Again!")
