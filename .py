@@ -11,7 +11,7 @@ print("Through the next pair of questions....", "\n")
 print("...the future of your new best friend will be decided ...", "\n")
 print("...be kind with your NEW BEST FRIEND :)", "\n")
 
-x = str(input("Enter name of your new friend!"))
+x = str(input("Enter name of your new friend! "))
 
 print("\n", "Your new best friend name is:", x)
 print("\n", x , "is a profesional athlete ")
@@ -64,25 +64,23 @@ elif  y == "a":
 
             if c == "a":
                 print("\n", " But", x, " soon quits professional sport for a long time passion..." )
-                print("\n", "...and builds a social-sport center for the neighborhood youth to be trained!")
+                print("\n", "...and builds a social-sport center for the neighborhood youth to be trained!", "\n")
             elif c == "b":
                 print("\n", " The downfall is absolute until a friend introduces ", x, " to joints")
                 print("\n", x, " curates with joints and decides...")
                 print("\n", " a) to make a gang"," b) to start an own herbal company to help other professional athletes get over painkillers", "\n")
-            else:
-                print("\n", "Wrong answer, again!")
-
+            
                 d = str(input("Interesting... "))
 
                 if d == "a":
-                    print("\n", x, " loses control and ends up to jail and the tabloids!")
+                    print("\n", x, " loses control and ends up to jail and the tabloids!", "\n")
                 elif d == "b":
-                    print("\n", x, " is a legend after the company helped so many people!")
+                    print("\n", x, " is a legend after the company helped so many people!", "\n")
                 else:
-                    print("\n", "Wrong answer, again!")
+                    print("\n", "Wrong answer, again!", "\n")
         elif b == "b":
-            print("\n", " The doctor gets fired ", x, " sues the team and breaks his contract!")
-            print("\n", x, " Becomes a legend after gifting the court money to the community, nevertheless earns enough money from sports!")
+            print("\n", " The doctor gets fired ", x, " sues the team and breaks his contract!", "\n")
+            print("\n", x, " Becomes a legend after gifting the court money to the community, nevertheless earns enough money from sports!", "\n")
         else:
             print("\n", "Wrong answer, again!")
 else:
